@@ -1,0 +1,190 @@
+/* ---------------universal styling */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Zen Kaku Gothic New';
+}
+
+/* ---------------top navbar styling */
+.top-header {
+	background-color: #fcfefd;
+	height: auto;
+	min-width: 100%;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 100px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.logo-img {
+	height: 90px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgb(79, 78, 78);
+	font-weight: 600;
+	font-size: 18px;
+	transition: 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #121E44;
+}
+
+.btn {
+	background-color: #121E44;
+	padding: 10px 25px;
+	border-radius: 30px;
+	color: white;
+	transition: 0.4s ease-in-out;
+	text-decoration: none;
+	/* need in futute styling of button*/
+}
+
+.btn:hover {
+	background-color: #F1C49F;
+}
+
+/* ---------------hero-section styling */
+
+.hero-section {
+	min-width: 100vw;
+}
+
+.hero-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 40px 100px;
+}
+
+.left-box {
+	margin-left: 40px;
+	padding: 50px 0;
+}
+
+.started {
+	background-color: #F1C49F;
+	text-decoration: none;
+	color: #121E44;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.ready {
+	color: #121E44;
+	margin-bottom: 8px;
+	font-weight: 550;
+}
+
+.left-box h1 {
+	font-size: 34px;
+	margin-bottom: 8px;
+	line-height: 44px;
+}
+
+span {
+	color: #121E44;
+}
+
+.left-para {
+	margin-bottom: 30px;
+}
+
+/* --- styling right image of top section */
+.right-img {
+	width: 500px;
+}
+
+/* styling feature boxes and section */
+
+.feature {
+	background-color: white;
+	height: 50vh;
+	padding: 0 100px;
+	/*   padding of each section will be same as much as needed */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.boxes {
+	padding: 20px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 6px;
+	transition: 0.3s ease-in-out;
+}
+
+.boxes:hover {
+	box-shadow: 0px 5px 15px #bdbdbd;
+	cursor: pointer;
+}
+
+.boxes h2 {
+	font-size: 18px;
+	color: rgb(49, 48, 48);
+	margin: 5px 0;
+}
+
+.boxes p {
+	color: rgb(131, 131, 131);
+}
+
+.al-shadows {
+	box-shadow: 0px 5px 15px #bdbdbd;
+}
+
+h2 {
+	font-family: Zen Kaku Gothic New;
+	text-align: center;
+}
+
+h3 {
+	font-family: Zen Kaku Gothic New;
+	text-align: center;
+}
+
+h4 {
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+ol {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+	height: 10%;
+}
